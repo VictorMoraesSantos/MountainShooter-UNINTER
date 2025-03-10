@@ -82,7 +82,6 @@ class Level:
             EntityMediator.verify_health(entity_list=self.entity_list)
         pass
 
-
     def level_text(self, text_size: int, text: str, text_color: tuple, text_pos: tuple):
         text_font: Font = pygame.font.SysFont("Lucida Sans Typewriter", text_size)
         text_surf: Surface = text_font.render(text, True, text_color).convert_alpha()
