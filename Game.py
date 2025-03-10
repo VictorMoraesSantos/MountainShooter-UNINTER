@@ -1,3 +1,5 @@
+import sys
+
 import pygame
 
 from Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
@@ -34,6 +36,7 @@ class Game:
                 pygame.quit()
                 quit()
             else:
-                pass
+                pygame.quit()
+                sys.exit()
 
 

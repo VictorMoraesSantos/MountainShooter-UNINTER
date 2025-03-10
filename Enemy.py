@@ -1,8 +1,9 @@
 import pygame
 
-from Const import ENTITY_SPEED, WIN_WIDTH, ENTITY_SHOOT_DELAY, PLAYER_KEY_SHOOT
+from Const import ENTITY_SPEED, ENTITY_SHOOT_DELAY
 from EnemyShoot import EnemyShoot
 from Entity import Entity
+
 
 class Enemy(Entity):
     def __init__(self, name: str, position: tuple):
